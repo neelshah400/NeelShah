@@ -3,7 +3,7 @@ if(url.indexOf("index.html") === -1){
     window.location.href += "index.html";
     url = window.location.href;
 }
-if(url.indexOf("?page=") === -1){
+else if(url.indexOf("?page=") === -1){
     window.location.href += "?page=";
     url = window.location.href;
 }
