@@ -38,6 +38,6 @@ function setHeight(e) {
   e.height = e.contentWindow.document.body.scrollHeight + 35;
 }
 
-$(window).load(function() {
+$(window).on('load', function() {
     doIframe();
 });
