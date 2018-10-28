@@ -20,6 +20,24 @@ function contentLoader(){
     document.getElementById(file).classList.add("active");
 };
 
-function resizeIframe(obj) {
+/*function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}*/
+
+function doIframe() {
+    var $iframes = $("iframe.autoHeight"); 
+    $iframes.each(function() {
+        var iframe = this;
+        $(iframe).load(function() {
+            setHeight(iframe);
+        });
+    });
 }
+
+function setHeight(e) {
+  e.height = e.contentWindow.document.body.scrollHeight + 35;
+}
+
+$(window).load(function() {
+    doIframe();
+});
