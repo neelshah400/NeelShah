@@ -23,3 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
 });
+
+if (!window.location.href.contains('index.html'))
+    window.location.href += '/index.html';
