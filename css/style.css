@@ -20,7 +20,12 @@
 }
 
 #home {
-    background-image: url("https://i.pinimg.com/originals/de/1d/df/de1ddf9ee30e08e15460626b919ef87e.jpg");
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(50, 255, 255, 1)
+        ),
+        url("../static/oldbg.jpg");
     background-size: cover;
 }
 
@@ -28,12 +33,9 @@
     padding-bottom: 2em;
 }
 
-a {
-    padding: 0.5em;
-}
-
 #navBar{
-    background-color: hsl(291, 20.6%, 13.1%) !important;
+    /* background-color: hsl(291, 20.6%, 13.1%) !important; */
+    /* background-color:#1A237E !important; */
 }
 
 #about, #education, #volunteering {
@@ -52,3 +54,15 @@ a {
     background-color: white;
     padding: 1em;
 }
+
+#iconsContainer a {
+    padding: 0.5em;
+}
+
+#about { background-color: #F6CACA; }
+#skills { background-color: #CBE896; }
+#education { background-color: #F4C095; }
+#experience { background-color: #CCE3De; }
+#activities { background-color: #89BBFE; }
+#volunteering { background-color: #FFEECF; }
+#projects { background-color: #A5D8FF; }
