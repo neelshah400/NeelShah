@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <script src="js/script.js"></script>
-        <title>Neel Shah</title>
-    </head>
-    <body>
-        <nav id="navBar" class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Neel Shah</title>
+</head>
+
+<body>
+    <nav id="navBar" class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
                 <h5 class="title is-5 has-text-light">Neel Shah</h5>
-              </a>
-              <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-              </a>
-            </div>
-            <div id="navMenu" class="navbar-menu">
-              <div class="navbar-start">
+            </a>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
                 <a class="navbar-item" href="#about">About Me</a>
                 <a class="navbar-item" href="#skills">Skills</a>
                 <a class="navbar-item" href="#education">Education</a>
@@ -30,458 +33,505 @@
                 <a class="navbar-item" href="#activities">Extracurricular Activities</a>
                 <a class="navbar-item" href="#volunteering">Volunteering</a>
                 <a class="navbar-item" href="#projects">Projects</a>
-              </div>
             </div>
-        </nav>
-        <section id="home" class="hero is-fullheight">
-            <div class="hero-head">
+        </div>
+    </nav>
+    <section id="home" class="hero is-fullheight">
+        <div class="hero-head">
+        </div>
+        <div class="hero-body">
+            <div class="container has-text-centered has-text-dark">
+                <img id="avatar" class="is-rounded" src="static/avatar.jpg">
+                <h1 class="title is-1 is-spaced">Neel Shah</h1>
+                <h4 class="subtitle is-4">Senior at South Brunswick High School</h4>
+                <h4 class="subtitle is-4">Interested in Computer Science, Math, Science, and Economics</h4>
+                <h4 class="subtitle is-4">Software Engineering Intern at Bloomberg L.P.</h4>
             </div>
-            <div class="hero-body">
-                <div class="container has-text-centered has-text-dark">
-                    <img id="avatar" class="is-rounded" src="static/avatar.jpg">
-                    <h1 class="title is-1 is-spaced">Neel Shah</h1>
-                    <h4 class="subtitle is-4">Senior at South Brunswick High School</h4>
-                    <h4 class="subtitle is-4">Interested in Computer Science, Math, Science, and Economics</h4>
-                    <h4 class="subtitle is-4">Software Engineering Intern at Bloomberg L.P.</h4>
-                </div>
+        </div>
+        <div class="hero-foot">
+            <div class="container has-text-centered has-text-dark" id="iconsContainer">
+                <a class="title" href="mailto:neelshah400@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a class="title" href="tel:+17329251305" target="_blank">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a class="title" href="https://github.com/neelshah400/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a class="title" href="https://www.linkedin.com/in/neelshah400/" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="title" href="static/NeelShahResume_Public.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i>
+                </a>
             </div>
-            <div class="hero-foot">
-                <div class="container has-text-centered has-text-dark" id="iconsContainer">
-                    <a class="title" href="mailto:neelshah400@gmail.com" target="_blank">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a class="title" href="tel:+17329251305" target="_blank">
-                        <i class="fas fa-phone"></i>
-                    </a>
-                    <a class="title" href="https://github.com/neelshah400/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a class="title" href="https://www.linkedin.com/in/neelshah400/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a class="title" href="static/NeelShahResume_Public.pdf" target="_blank">
-                        <i class="far fa-file-pdf"></i>
-                    </a>
-                </div>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-user-circle"></i>
+                </span>
+                &nbsp;About Me
+            </h2>
+            <div class="content is-large">
+                <p>Hi! I'm Neel Shah, a high school student interested in computer science, math, science, and
+                    economics. This website has some information about me, what I do, and projects I've created. Feel
+                    free to look through the website and contact me for more information.</p>
             </div>
-        </section>
-        <section id="about" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-user-circle"></i>
-                    </span>
-                    &nbsp;About Me 
-                </h2>
-                <div class="content is-large">
-                    <p>Hi! I'm Neel Shah, a high school student interested in computer science, math, science, and economics. This website has some information about me, what I do, and projects I've created. Feel free to look through the website and contact me for more information.</p>
-                </div>
-            </div>
-        </section>
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-code"></i>
-                    </span>
-                    &nbsp;Skills
-                </h2>
-                <div class="content is-large">
-                    <h4 class="title is-4">Programming Languages</h4>
-                    <img src="https://img.icons8.com/color/24/000000/java-coffee-cup-logo.png"/> Java &middot;
-                    <img src="https://img.icons8.com/color/24/000000/python.png"/> Python &middot;
-                    <img src="https://img.icons8.com/color/24/000000/javascript.png"/> JavaScript &middot;
-                    <img src="https://img.icons8.com/color/24/000000/typescript.png"/> TypeScript &middot;
-                    <img src="https://img.icons8.com/ios-filled/24/000000/c-sharp-logo.png"/> C#
-                    <br><br>
-                    <h4 class="title is-4">Frontend</h4>
-                    <img src="https://img.icons8.com/color/24/000000/html-5.png"/> HTML &middot;
-                    <img src="https://img.icons8.com/color/24/000000/css3.png"/> CSS &middot;
-                    <img src="https://img.icons8.com/ultraviolet/24/000000/react.png"/> React &middot;
-                    <img src="https://img.icons8.com/color/24/000000/angularjs.png"/> Angular
-                    <br><br>
-                    <h4 class="title is-4">Backend</h4>
-                    <img src="https://cdn.onlinewebfonts.com/svg/img_437027.png" width="24px" height="24px"/> Flask &middot;
-                    <img src="https://img.icons8.com/material-outlined/24/000000/django.png"/> Django
-                    <br><br>
-                    <h4 class="title is-4">App Development</h4>
-                    <img src="https://img.icons8.com/color/24/000000/android-os.png"/> Android &middot;
-                    <img src="https://img.icons8.com/ios-filled/24/000000/unity.png"/> Unity
-                    <br><br>
-                    <h4 class="title is-4">Version Control</h4>
-                    <img src="https://img.icons8.com/color/24/000000/git.png"/> Git &middot;
-                    <img src="https://img.icons8.com/material-sharp/24/000000/github.png"/> GitHub
-                </div>
-            </div>
-        </section>
-        <section id="education" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </span>
-                    &nbsp;Education
-                </h2>
-                <div id="cardSBHS" class="card">
-                    <div class="card-content">
-                        <h3 class="title is-3">South Brunswick High School</h3>
-                        <h4 class="subtitle is-4">Sepr 2017 &ndash; Jun 2021 | Monmouth Jct., NJ</h4>
-                        <div class="columns">
-                            <div class="column"></div>
-                            <div class="column">
-                                <div class="content">
-                                    <div class="box boxSemiWhite">
-                                        <h5 class="title is-5">
-                                            <span class="icon">
-                                                <i class="fas fa-award"></i>
-                                            </span>
-                                            &nbsp;Awards/Honors
-                                        </h5>
-                                        Awards
-                                        <ul>
-                                            <li>National Merit Scholarship Semifinalist</li>
-                                        </ul>
-                                        Honor Societies
-                                        <ul>
-                                            <li>National Honor Society</li>
-                                            <li>Business Honor Society</li>
-                                            <li>Math Honor Society</li>
-                                            <li>Computer Science Honor Society</li>
-                                            <li>Latin Honor Society</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div class="content">
-                                    <div class="box boxSemiWhite">
-                                        <h5 class="title is-5">
-                                            <span class="icon">
-                                                <i class="fas fa-chalkboard-teacher"></i>
-                                            </span>
-                                            &nbsp;Relevant Courses
-                                        </h5>
-                                        Computer Science
-                                        <ul>
-                                            <li>AP Computer Science A</li>
-                                            <li>Mobile App Development</li>
-                                            <li>Data Structures</li>
-                                            <li>Virtual Reality & Game Design</li>
-                                        </ul>
-                                        Math
-                                        <ul>
-                                            <li>AP Calculus BC</li>
-                                            <li>AP Statistics</li>
-                                            <li>Multivariable Calculus & Linear Algebra</li>
-                                        </ul>
-                                        Science
-                                        <ul>
-                                            <li>AP Physics 1</li>
-                                            <li>AP Physics C</li>
-                                            <li>AP Chemistry</li>
-                                        </ul>
-                                        Economics
-                                        <ul>
-                                            <li>AP Microeconomics</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="experience" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-briefcase"></i>
-                    </span>
-                    &nbsp;Experience
-                </h2>
-                <div id="cardBloomberg" class="card">
-                    <div class="card-content">
-                        <h3 class="title is-3">Software Engineering Intern | Bloomberg LP</h3>
-                        <h4 class="subtitle is-4">Jul 2020 &ndash; Aug 2020 | Dayton, NJ</h4>
-                        <div class="content">
-                            <ul>
-                                <li>Worked on the Environment Support Site Reliability Engineering team, which is responsible for automating machine turnaround/maintenance for a fleet of 30,000+ servers</li>
-                                <li>Performed agile web development, working with Angular and React on the frontend (using TypeScript) and a Django RESTful API on the backend (using Python) to visualize turnaround statistics</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="activities" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </span>
-                    &nbsp;Extracurricular Activities
-                </h2>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-code"></i>
+                </span>
+                &nbsp;Skills
+            </h2>
+            <div class="content is-large">
+                <h4 class="title is-4">Programming Languages</h4>
                 <div class="columns">
-                    <div class="column">
-                        <div id="cardSciOly" class="card">
-                            <div class="card-image imgPad">
-                                <figure class="image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Science_Olympiad_Logo.svg/1200px-Science_Olympiad_Logo.svg.png">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">Science Olympiad Team</h3>
-                                <h4 class="subtitle is-4">2017 &ndash; Present</h4>
-                                <div class="content">
-                                    <ul>
-                                        <li>Collaborated with teammates to compete against top schools in science-based events</li>
-                                        <li>
-                                            Tournaments include: 
-                                            <ul>
-                                                <li>Regionals</li>
-                                                <li>States</li>
-                                                <li>
-                                                    Invitationals
-                                                    <ul>
-                                                        <li>Long Island Invitational</li>
-                                                        <li>Yale University</li>
-                                                        <li>Princeton University</li>
-                                                        <li>University of Pennsylvania</li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            Have received the following medals: 
-                                            <ul>
-                                                <li>Game On (States, 2018)</li>
-                                                <li>Fermi Questions (Long Island, 2019)</li>
-                                                <li>Astronomy (Yale, 2020)</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://www.soinc.org/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardLaunchX" class="card">
-                            <div class="card-image">
-                                <figure class="image imgPad">
-                                    <img src="https://launchx.com/assets/images/launchXLogo.png">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">LaunchX Entrepreneurship Program</h3>
-                                <h4 class="subtitle is-4">2019 &ndash; Present</h4>
-                                <div class="content">
-                                    <ul>
-                                        <li>Worked in a team of 4 to develop a business concept, plan, and prototype</li>
-                                        <li>Our business concept, Techognize, involved using augmented reality to enhance student
-                                            learning by creating an interactive platform for students to learn</li>
-                                        <li>
-                                            Have submitted business pitches to:
-                                            <ul>
-                                                <li>NASA Conrad Challenge</li>
-                                                <li>Blue Ocean Competition</li>
-                                                <li>University of Michigan (Startup High School)</li>
-                                            </ul> 
-                                        </li>
-                                        <li>Recognized as a 2020 NASA Conrad Innovator</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://launchx.com/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardCSC" class="card">
-                            <div class="card-image">
-                                <figure class="image imgPad">
-                                    <img src="https://avatars3.githubusercontent.com/u/1531383?s=460&v=4">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">Computer Science Club</h3>
-                                <h4 class="subtitle is-4">2018 &ndash; Present</h4>
-                                <div class="content">
-                                    <ul>
-                                        <li>Created projects involving web development and Python programming</li>
-                                        <li>
-                                            Attended the following hackathons:
-                                            <ul>
-                                                <li>HackTCNJ 2018</li>
-                                                <li>HackSB 2018</li>
-                                                <li>HackSB 2019</li>
-                                                <li>HackPHS 2019</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://sbcompsciclub.github.io/club/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardChemOly" class="card">
-                            <div class="card-image">
-                                <figure class="image imgPad">
-                                    <img src="https://static.wixstatic.com/media/9e05b5_cadd8d5525a5474f9e7d6a10cea88f16.gif">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">Chemistry Olympics Team</h3>
-                                <h4 class="subtitle is-4">2018 &ndash; 2019</h4>
-                                <div class="content">
-                                    <ul>
-                                        <li>Worked in a group of 3 to create a homemade sunscreen, conduct an experiment to test
-                                            its effectiveness, and write a research paper describing our findings</li>
-                                        <li>Won 2nd place for Chemistry Research at NJIT's Chemistry Olympics competition</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://www.njchemistryolympics.com/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
-                    </div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:java" data-inline="false"></span> Java</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:python" data-inline="false"></span> Python</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:javascript" data-inline="false"></span>  JavaScript</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:typescript-icon" data-inline="false"></span> TypeScript</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:c-sharp" data-inline="false"></span> C#</div>
                 </div>
-            </div>
-        </section>
-        <section id="volunteering" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-hands-helping"></i>
-                    </span>
-                    &nbsp;Volunteering
-                </h2>
+                <h4 class="title is-4">Frontend</h4>
                 <div class="columns">
-                    <div class="column">
-                        <div id="cardKumon" class="card">
-                            <div class="card-image">
-                                <figure class="image">
-                                    <img src="https://media-exp1.licdn.com/dms/image/C4D1BAQFX989TrDrxyQ/company-background_10000/0?e=2159024400&v=beta&t=UKeUW5JqLsHrIVHPfrKSKyd6zUur5tTekaQESNw4i5o">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">Kumon</h3>
-                                <!-- <h4 class="subtitle is-4">96 Hours</h4> -->
-                                <div class="content">
+                    <div class="column is-narrow"><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span> HTML</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span> CSS</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:react" data-inline="false"></span> React</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:angular-icon" data-inline="false"></span> Angular</div>
+                </div>
+                <h4 class="title is-4">Backend</h4>
+                <div class="columns">
+                    <div class="column is-narrow"><span class="iconify" data-icon="file-icons:flask" data-inline="false"></span> Flask</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:django" data-inline="false"></span> Django</div>
+                </div>
+                <h4 class="title is-4">Testing</h4>
+                <div class="columns">
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:jest" data-inline="false"></span> Jest</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:airbnb" data-inline="false"></span> Enzyme</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="uil:server" data-inline="false"></span> Mock Service Worker</div>
+                </div>
+                <h4 class="title is-4">App Development</h4>
+                <div class="columns">
+                    <div class="column is-narrow"><span class="iconify" data-icon="flat-color-icons:android-os" data-inline="false"></span> Android</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:unity" data-inline="false"></span> Unity</div>
+                </div>
+                <h4 class="title is-4">Version Control</h4>
+                <div class="columns">
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:git-icon" data-inline="false"></span> Git</div>
+                    <div class="column is-narrow"><span class="iconify" data-icon="logos:github-icon" data-inline="false"></span> GitHub</div>
+                </div>
+                <!--
+                
+                 &middot;
+                
+                <br><br>
+                
+                < &middot;
+                 -->
+            </div>
+        </div>
+    </section>
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </span>
+                &nbsp;Education
+            </h2>
+            <div id="cardSBHS" class="card">
+                <div class="card-content">
+                    <h3 class="title is-3">South Brunswick High School</h3>
+                    <h4 class="subtitle is-4">Sepr 2017 &ndash; Jun 2021 | Monmouth Jct., NJ</h4>
+                    <div class="columns">
+                        <div class="column"></div>
+                        <div class="column">
+                            <div class="content">
+                                <div class="box boxSemiWhite">
+                                    <h5 class="title is-5">
+                                        <span class="icon">
+                                            <i class="fas fa-award"></i>
+                                        </span>
+                                        &nbsp;Awards/Honors
+                                    </h5>
+                                    Awards
                                     <ul>
-                                        <li>Graded worksheets and tests</li>
-                                        <li>Answered students' questions</li>
-                                        <li>Guided those who needed help or were learning new concepts</li>
+                                        <li>National Merit Scholarship Semifinalist</li>
+                                    </ul>
+                                    Honor Societies
+                                    <ul>
+                                        <li>National Honor Society</li>
+                                        <li>Business Honor Society</li>
+                                        <li>Math Honor Society</li>
+                                        <li>Computer Science Honor Society</li>
+                                        <li>Latin Honor Society</li>
                                     </ul>
                                 </div>
                             </div>
-                            <footer class="card-footer">
-                                <a href="https://www.kumon.com/north-brunswick-2" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
                         </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardSBPL" class="card">
-                            <div class="card-image">
-                                <figure class="image">
-                                    <img src="https://patch.com/img/cdn/users/93169/2013/08/T800x600/dff4d0a09d6664e12d9072345f43c421.jpg">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">South Brunswick Public Library</h3>
-                                <!-- <h4 class="subtitle is-4">79.5 Hours</h4> -->
-                                <div class="content">
+                        <div class="column">
+                            <div class="content">
+                                <div class="box boxSemiWhite">
+                                    <h5 class="title is-5">
+                                        <span class="icon">
+                                            <i class="fas fa-chalkboard-teacher"></i>
+                                        </span>
+                                        &nbsp;Relevant Courses
+                                    </h5>
+                                    Computer Science
                                     <ul>
-                                        <li>Worked as a tutor in the Homework Buddies Tutoring Program</li>
-                                        <li>Assisted with several book sales</li>
-                                        <li>Worked with the Children's Department for the Summer Reading program, doing clerical jobs, handing out prizes, and performing other tasks</li>
+                                        <li>AP Computer Science A</li>
+                                        <li>Mobile App Development</li>
+                                        <li>Data Structures</li>
+                                        <li>Virtual Reality & Game Design</li>
+                                    </ul>
+                                    Math
+                                    <ul>
+                                        <li>AP Calculus BC</li>
+                                        <li>AP Statistics</li>
+                                        <li>Multivariable Calculus & Linear Algebra</li>
+                                    </ul>
+                                    Science
+                                    <ul>
+                                        <li>AP Physics 1</li>
+                                        <li>AP Physics C</li>
+                                        <li>AP Chemistry</li>
+                                    </ul>
+                                    Economics
+                                    <ul>
+                                        <li>AP Microeconomics</li>
                                     </ul>
                                 </div>
                             </div>
-                            <footer class="card-footer">
-                                <a href="https://www.sbpl.info/teens/volunteering/teen-volunteering/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
                         </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardSeniorCenter" class="card">
-                            <div class="card-image">
-                                <figure class="image">
-                                    <img src="https://www.southbrunswicknj.gov/images/departments/seniors/senior-center-photo.jpg">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">South Brunswick Senior Center</h3>
-                                <!-- <h4 class="subtitle is-4">30 Hours</h4> -->
-                                <div class="content">
-                                    <ul>
-                                        <li>Volunteered as a kitchen worker</li>
-                                        <li>Helped pack food for the Meals on Wheels delivery program</li>
-                                        <li>Served lunch to the seniors</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://www.southbrunswicknj.gov/senior-volunteer-opportunities" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div id="cardHighSchool" class="card">
-                            <div class="card-image">
-                                <figure class="image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/SBHSpicture.jpg">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                <h3 class="title is-3">South Brunswick High School</h3>
-                                <!-- <h4 class="subtitle is-4">10 Hours</h4> -->
-                                <div class="content">
-                                    <ul>
-                                        <li>Worked as a Human GPS during parent-teacher conferences, helping people navigate through the high school</li>
-                                        <li>Tutored students at the Homework Help Center</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <footer class="card-footer">
-                                <a href="https://sbhs.sbschools.org/" target="_blank" class="card-footer-item">Learn More</a>
-                            </footer>
-                        </div>
+                        <div class="column"></div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="title is-2">
-                    <span class="icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </span>
-                    &nbsp;Projects
-                </h2>
-                <div class="content is-large">
-                    <p>Check back to see my projects later! For now, check out my <a href="https://github.com/neelshah400/" target="_blank" rel="noopener noreferrer">GitHub page</a> if you want to see what I've been working on.</p>
+        </div>
+    </section>
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-briefcase"></i>
+                </span>
+                &nbsp;Experience
+            </h2>
+            <div id="cardBloomberg" class="card">
+                <div class="card-content">
+                    <h3 class="title is-3">Software Engineering Intern | Bloomberg LP</h3>
+                    <h4 class="subtitle is-4">Jul 2020 &ndash; Aug 2020 | Dayton, NJ</h4>
+                    <div class="content">
+                        <ul>
+                            <li>Worked on the Environment Support Site Reliability Engineering team, which is
+                                responsible for automating machine turnaround/maintenance for a fleet of 30,000+ servers
+                            </li>
+                            <li>Performed agile web development, working with Angular and React on the frontend (using
+                                TypeScript) and a Django RESTful API on the backend (using Python) to visualize
+                                turnaround statistics</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>Website created and designed by Neel Shah.</p>
-                <p>
-                    <a href="mailto:neelshah400@gmail.com" target="_blank">neelshah400@gmail.com</a> &middot;
-                    <a href="tel:+17329251305" target="_blank">(732) 925-1305</a>
-                </p>
-                <p>Copyright &copy; 2020 Neel Shah. All rights reserved.</p>
+        </div>
+    </section>
+    <section id="activities" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                </span>
+                &nbsp;Extracurricular Activities
+            </h2>
+            <div class="columns">
+                <div class="column">
+                    <div id="cardSciOly" class="card">
+                        <div class="card-image imgPad">
+                            <figure class="image">
+                                <img
+                                    src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Science_Olympiad_Logo.svg/1200px-Science_Olympiad_Logo.svg.png">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">Science Olympiad Team</h3>
+                            <h4 class="subtitle is-4">2017 &ndash; Present</h4>
+                            <div class="content">
+                                <ul>
+                                    <li>Collaborated with teammates to compete against top schools in science-based
+                                        events</li>
+                                    <li>
+                                        Tournaments include:
+                                        <ul>
+                                            <li>Regionals</li>
+                                            <li>States</li>
+                                            <li>
+                                                Invitationals
+                                                <ul>
+                                                    <li>Long Island Invitational</li>
+                                                    <li>Yale University</li>
+                                                    <li>Princeton University</li>
+                                                    <li>University of Pennsylvania</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Have received the following medals:
+                                        <ul>
+                                            <li>Game On (States, 2018)</li>
+                                            <li>Fermi Questions (Long Island, 2019)</li>
+                                            <li>Astronomy (Yale, 2020)</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://www.soinc.org/" target="_blank" class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardLaunchX" class="card">
+                        <div class="card-image">
+                            <figure class="image imgPad">
+                                <img src="https://launchx.com/assets/images/launchXLogo.png">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">LaunchX Entrepreneurship Program</h3>
+                            <h4 class="subtitle is-4">2019 &ndash; Present</h4>
+                            <div class="content">
+                                <ul>
+                                    <li>Worked in a team of 4 to develop a business concept, plan, and prototype</li>
+                                    <li>Our business concept, Techognize, involved using augmented reality to enhance
+                                        student
+                                        learning by creating an interactive platform for students to learn</li>
+                                    <li>
+                                        Have submitted business pitches to:
+                                        <ul>
+                                            <li>NASA Conrad Challenge</li>
+                                            <li>Blue Ocean Competition</li>
+                                            <li>University of Michigan (Startup High School)</li>
+                                        </ul>
+                                    </li>
+                                    <li>Recognized as a 2020 NASA Conrad Innovator</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://launchx.com/" target="_blank" class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardCSC" class="card">
+                        <div class="card-image">
+                            <figure class="image imgPad">
+                                <img src="https://avatars3.githubusercontent.com/u/1531383?s=460&v=4">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">Computer Science Club</h3>
+                            <h4 class="subtitle is-4">2018 &ndash; Present</h4>
+                            <div class="content">
+                                <ul>
+                                    <li>Created projects involving web development and Python programming</li>
+                                    <li>
+                                        Attended the following hackathons:
+                                        <ul>
+                                            <li>HackTCNJ 2018</li>
+                                            <li>HackSB 2018</li>
+                                            <li>HackSB 2019</li>
+                                            <li>HackPHS 2019</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://sbcompsciclub.github.io/club/" target="_blank"
+                                class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardChemOly" class="card">
+                        <div class="card-image">
+                            <figure class="image imgPad">
+                                <img
+                                    src="https://static.wixstatic.com/media/9e05b5_cadd8d5525a5474f9e7d6a10cea88f16.gif">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">Chemistry Olympics Team</h3>
+                            <h4 class="subtitle is-4">2018 &ndash; 2019</h4>
+                            <div class="content">
+                                <ul>
+                                    <li>Worked in a group of 3 to create a homemade sunscreen, conduct an experiment to
+                                        test
+                                        its effectiveness, and write a research paper describing our findings</li>
+                                    <li>Won 2nd place for Chemistry Research at NJIT's Chemistry Olympics competition
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://www.njchemistryolympics.com/" target="_blank"
+                                class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </section>
+    <section id="volunteering" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-hands-helping"></i>
+                </span>
+                &nbsp;Volunteering
+            </h2>
+            <div class="columns">
+                <div class="column">
+                    <div id="cardKumon" class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img
+                                    src="https://media-exp1.licdn.com/dms/image/C4D1BAQFX989TrDrxyQ/company-background_10000/0?e=2159024400&v=beta&t=UKeUW5JqLsHrIVHPfrKSKyd6zUur5tTekaQESNw4i5o">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">Kumon</h3>
+                            <!-- <h4 class="subtitle is-4">96 Hours</h4> -->
+                            <div class="content">
+                                <ul>
+                                    <li>Graded worksheets and tests</li>
+                                    <li>Answered students' questions</li>
+                                    <li>Guided those who needed help or were learning new concepts</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://www.kumon.com/north-brunswick-2" target="_blank"
+                                class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardSBPL" class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img
+                                    src="https://patch.com/img/cdn/users/93169/2013/08/T800x600/dff4d0a09d6664e12d9072345f43c421.jpg">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">South Brunswick Public Library</h3>
+                            <!-- <h4 class="subtitle is-4">79.5 Hours</h4> -->
+                            <div class="content">
+                                <ul>
+                                    <li>Worked as a tutor in the Homework Buddies Tutoring Program</li>
+                                    <li>Assisted with several book sales</li>
+                                    <li>Worked with the Children's Department for the Summer Reading program, doing
+                                        clerical jobs, handing out prizes, and performing other tasks</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://www.sbpl.info/teens/volunteering/teen-volunteering/" target="_blank"
+                                class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardSeniorCenter" class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img
+                                    src="https://www.southbrunswicknj.gov/images/departments/seniors/senior-center-photo.jpg">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">South Brunswick Senior Center</h3>
+                            <!-- <h4 class="subtitle is-4">30 Hours</h4> -->
+                            <div class="content">
+                                <ul>
+                                    <li>Volunteered as a kitchen worker</li>
+                                    <li>Helped pack food for the Meals on Wheels delivery program</li>
+                                    <li>Served lunch to the seniors</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://www.southbrunswicknj.gov/senior-volunteer-opportunities" target="_blank"
+                                class="card-footer-item">Learn More</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="cardHighSchool" class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/SBHSpicture.jpg">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-3">South Brunswick High School</h3>
+                            <!-- <h4 class="subtitle is-4">10 Hours</h4> -->
+                            <div class="content">
+                                <ul>
+                                    <li>Worked as a Human GPS during parent-teacher conferences, helping people navigate
+                                        through the high school</li>
+                                    <li>Tutored students at the Homework Help Center</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://sbhs.sbschools.org/" target="_blank" class="card-footer-item">Learn
+                                More</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="title is-2">
+                <span class="icon">
+                    <i class="fas fa-project-diagram"></i>
+                </span>
+                &nbsp;Projects
+            </h2>
+            <div class="content is-large">
+                <p>Check back to see my projects later! For now, check out my <a href="https://github.com/neelshah400/"
+                        target="_blank" rel="noopener noreferrer">GitHub page</a> if you want to see what I've been
+                    working on.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Website created and designed by Neel Shah.</p>
+            <p>
+                <a href="mailto:neelshah400@gmail.com" target="_blank">neelshah400@gmail.com</a> &middot;
+                <a href="tel:+17329251305" target="_blank">(732) 925-1305</a>
+            </p>
+            <p>Copyright &copy; 2020 Neel Shah. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
 </html>

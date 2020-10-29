@@ -33,19 +33,6 @@
     padding-bottom: 2em;
 }
 
-#navBar{
-    /* background-color: hsl(291, 20.6%, 13.1%) !important; */
-    /* background-color:#1A237E !important; */
-}
-
-#about, #education, #volunteering {
-    background-color: #EDE7F6;
-}
-
-#skills, #activities, #projects {
-    background-color: #FCE4EC;
-}
-
 .card {
     background-color: rgba(255, 255, 255, 50%);
 }
@@ -59,10 +46,10 @@
     padding: 0.5em;
 }
 
-#about { background-color: #F6CACA; }
-#skills { background-color: #CBE896; }
-#education { background-color: #F4C095; }
-#experience { background-color: #CCE3De; }
-#activities { background-color: #89BBFE; }
-#volunteering { background-color: #FFEECF; }
+#about { background-color: #CCE3DE; }
+#skills { background-color: #FFEECF; }
+#education { background-color: #CBEBC3; }
+#experience { background-color: #EFD09E; }
+#activities { background-color: #C3DFE0; }
+#volunteering { background-color: #DEC0F1; }
 #projects { background-color: #A5D8FF; }
