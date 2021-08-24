@@ -1,6 +1,7 @@
 import React from 'react'
 import NextLink from 'next/link'
-import { Box, Button, CloseButton, Flex, Heading, HStack, IconButton, Link, Text, useColorModeValue, useDisclosure, VisuallyHidden, VStack } from '@chakra-ui/react';
+import { Box, Button, CloseButton, Flex, Heading, HStack, Icon, IconButton, Link, useColorModeValue, useDisclosure, VStack } from '@chakra-ui/react';
+import { AiFillCode, AiOutlineCode, AiOutlineMenu } from 'react-icons/ai'
 import * as CONSTANTS from '../constants'
 
 export const Header = () => {
@@ -9,22 +10,18 @@ export const Header = () => {
   const mobileNav = useDisclosure();
 
   return (
-    <Box bg={bg} w="full" px={{ base: 2, sm: 4 }} py={4} shadow="md" position="fixed" top={0}>
+    <Box bg={bg} zIndex={100} h={CONSTANTS.HEADER_HEIGHT} w="full" px={{ base: 2, sm: 4 }} py={4} shadow="md" position="fixed" top={0}>
       <Flex alignItems="center" justifyContent="space-between" mx="auto">
-        <Flex>
-          <Link href="/" title="Home Page" display="flex" alignItems="center">
-            {/* <Logo /> */}
-            <Text>Logo</Text>
-            <VisuallyHidden>Neel Shah</VisuallyHidden>
+        <HStack>
+          <Link href="#">
+            <Icon as={AiFillCode} boxSize={6} />
           </Link>
-          <Heading as="h1" size="md" fontWeight="medium" ml="2">
-            Neel Shah
-          </Heading>
-        </Flex>
+          <Heading as="h1" size="md" fontWeight="medium" ml="2">Neel Shah</Heading>
+        </HStack>
         <HStack display="flex" alignItems="center" spacing={1}>
           <HStack spacing={1} mr={1} color="brand.500" display={{ base: "none", md: "inline-flex" }}>
-            {Object.values(CONSTANTS.SECTIONS).map(section => (
-              <NextLink href={section.href}>
+            {CONSTANTS.SECTIONS.map(section => (
+              <NextLink key={section.id} href={section.href}>
                 <Button variant="ghost">{section.name}</Button>
               </NextLink>
             ))}
@@ -36,11 +33,9 @@ export const Header = () => {
               fontSize="20px"
               color={useColorModeValue("gray.800", "inherit")}
               variant="ghost"
-              //   icon={<AiOutlineMenu />}
-              icon={<Text>AiOutlineMenu</Text>}
+              icon={<AiOutlineMenu />}
               onClick={mobileNav.onOpen}
             />
-
             <VStack
               pos="absolute"
               top={0}
@@ -57,8 +52,8 @@ export const Header = () => {
               shadow="sm"
             >
               <CloseButton aria-label="Close menu" onClick={mobileNav.onClose} />
-              {Object.values(CONSTANTS.SECTIONS).map(section => (
-                <NextLink href={section.href}>
+              {CONSTANTS.SECTIONS.map(section => (
+                <NextLink key={section.id} href={section.href}>
                   <Button w="full" variant="ghost">{section.name}</Button>
                 </NextLink>
               ))}
@@ -68,4 +63,5 @@ export const Header = () => {
       </Flex>
     </Box>
   )
+  
 }

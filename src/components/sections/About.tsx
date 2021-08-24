@@ -9,7 +9,7 @@ export const About = (props) => {
   ]
   return (
     <>
-      {sentences.map(sentence => <Text p={1}>{sentence}</Text>)}
+      {sentences.map((sentence, index) => <Text key={index} pt={1}>{sentence}</Text>)}
     </>
   )
 }

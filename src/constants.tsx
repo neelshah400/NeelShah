@@ -1,30 +1,37 @@
 import React from 'react'
 import { About, Education, Experience, Projects, Skills } from './components/sections'
 
-export const SECTIONS = {
-  ABOUT: {
+export const HEADER_HEIGHT = 75
+
+export const SECTIONS = [
+  {
     name: 'About Me',
+    id: 'about',
     href: '#about',
     component: <About />
   },
-  SKILLS: {
+  {
     name: 'Skills',
+    id: 'skills',
     href: '#skills',
     component: <Skills />
   },
-  EDUCATION: {
+  {
     name: 'Education',
+    id: 'education',
     href: '#education',
     component: <Education />
   },
-  EXPERIENCE: {
+  {
     name: 'Experience',
+    id: 'experience',
     href: '#experience',
     component: <Experience />
   },
-  PROJECTS: {
+  {
     name: 'Projects',
+    id: 'projects',
     href: '#projects',
     component: <Projects />
   }
-}
+]

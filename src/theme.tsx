@@ -1,7 +1,7 @@
+import React from 'react'
 import { extendTheme } from '@chakra-ui/react'
 import { createBreakpoints } from '@chakra-ui/theme-tools'
-
-const headerHeight = 75
+import * as CONSTANTS from './constants'
 
 const fonts = { mono: `'Menlo', monospace` }
 
@@ -21,10 +21,10 @@ const theme = extendTheme({
   styles: {
     global: {
       html: {
-        'scroll-padding-top': `${headerHeight}px`
+        scrollPaddingTop: `${CONSTANTS.HEADER_HEIGHT}px`
       },
       body: {
-        'margin': `${headerHeight}px auto`
+        margin: `${CONSTANTS.HEADER_HEIGHT}px auto`
       }
     }
   }
