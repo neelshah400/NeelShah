@@ -1,9 +1,9 @@
-import { Text, useBreakpointValue } from '@chakra-ui/react';
-import React from 'react';
+import { Text, useBreakpointValue } from '@chakra-ui/react'
+import React from 'react'
 
 export const Headlines = () => {
 
-  const headlines = useBreakpointValue({
+  const headlines: string[] = useBreakpointValue({
     base: [
       'CS @ UMD',
       'SWE Intern @ Bloomberg'

@@ -1,10 +1,10 @@
-import { Wrap } from '@chakra-ui/react';
-import React from 'react';
-import ListCard from '../ListCard';
+import { Wrap } from '@chakra-ui/react'
+import React from 'react'
+import SkillsCard from '../SkillsCard'
 
 export const Skills = () => {
 
-  const cards = [
+  const cards: { name: string, icon: string, skills: { name: string, icon: string }[] }[] = [
     {
       name: 'Programming Languages',
       icon: 'ant-design:code-outlined',
@@ -30,7 +30,7 @@ export const Skills = () => {
     },
     {
       name: 'Other',
-      icon: 'mdi:web',
+      icon: 'ri:computer-fill',
       skills: [
         { name: 'Linux', icon: 'logos:linux-tux' },
         { name: 'Git', icon: 'logos:git-icon' },
@@ -43,11 +43,11 @@ export const Skills = () => {
   ]
 
   return (
-    <Wrap justify="center" spacing={5}>
+    <Wrap spacing={5} align="center">
       {cards.map(card => (
-        <ListCard key={card.name} name={card.name} icon={card.icon} skills={card.skills} />
+        <SkillsCard key={card.name} name={card.name} icon={card.icon} skills={card.skills} />
       ))}
     </Wrap>
-
   )
+
 }
