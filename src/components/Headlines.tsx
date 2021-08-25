@@ -1,5 +1,5 @@
-import React from 'react';
 import { Text, useBreakpointValue } from '@chakra-ui/react';
+import React from 'react';
 
 export const Headlines = () => {
 

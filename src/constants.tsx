@@ -1,9 +1,9 @@
 import React from 'react'
 import { About, Education, Experience, Projects, Skills } from './components/sections'
 
-export const HEADER_HEIGHT = 75
+export const HEADER_HEIGHT: number = 75
 
-export const SECTIONS = [
+export const SECTIONS: { name: string, id: string, href: string, component: JSX.Element }[] = [
   {
     name: 'About Me',
     id: 'about',

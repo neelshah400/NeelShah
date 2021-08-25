@@ -1,5 +1,5 @@
+import { ListItem, Text, UnorderedList } from '@chakra-ui/react';
 import React from 'react';
-import { Text } from '@chakra-ui/react'
 
 export const About = (props) => {
   const sentences = [
@@ -8,8 +8,8 @@ export const About = (props) => {
     'I am always eager to learn more and am interested in any potential internship/job opportunities. Please feel free to reach out about any opportunities or if you want to learn more about me.'
   ]
   return (
-    <>
-      {sentences.map((sentence, index) => <Text key={index} pt={1}>{sentence}</Text>)}
-    </>
+    <UnorderedList>
+      {sentences.map((sentence, index) => <ListItem key={index} pt={1} fontSize="lg">{sentence}</ListItem>)}
+    </UnorderedList>
   )
 }

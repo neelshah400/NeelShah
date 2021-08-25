@@ -1,13 +1,13 @@
-import React from 'react'
-import NextLink from 'next/link'
 import { Box, Button, CloseButton, Flex, Heading, HStack, Icon, IconButton, Link, useColorModeValue, useDisclosure, VStack } from '@chakra-ui/react';
-import { AiFillCode, AiOutlineCode, AiOutlineMenu } from 'react-icons/ai'
-import * as CONSTANTS from '../constants'
+import NextLink from 'next/link';
+import React from 'react';
+import { AiFillCode, AiOutlineMenu } from 'react-icons/ai';
+import * as CONSTANTS from '../constants';
 
 export const Header = () => {
 
   const bg = useColorModeValue("white", "gray.800");
-  const mobileNav = useDisclosure();
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
     <Box bg={bg} zIndex={100} h={CONSTANTS.HEADER_HEIGHT} w="full" px={{ base: 2, sm: 4 }} py={4} shadow="md" position="fixed" top={0}>
@@ -34,14 +34,14 @@ export const Header = () => {
               color={useColorModeValue("gray.800", "inherit")}
               variant="ghost"
               icon={<AiOutlineMenu />}
-              onClick={mobileNav.onOpen}
+              onClick={onOpen}
             />
             <VStack
               pos="absolute"
               top={0}
               left={0}
               right={0}
-              display={mobileNav.isOpen ? "flex" : "none"}
+              display={isOpen ? "flex" : "none"}
               flexDirection="column"
               p={2}
               pb={4}
@@ -51,10 +51,10 @@ export const Header = () => {
               rounded="sm"
               shadow="sm"
             >
-              <CloseButton aria-label="Close menu" onClick={mobileNav.onClose} />
+              <CloseButton aria-label="Close menu" onClick={onClose} />
               {CONSTANTS.SECTIONS.map(section => (
                 <NextLink key={section.id} href={section.href}>
-                  <Button w="full" variant="ghost">{section.name}</Button>
+                  <Button w="full" variant="ghost" onClick={onClose}>{section.name}</Button>
                 </NextLink>
               ))}
             </VStack>

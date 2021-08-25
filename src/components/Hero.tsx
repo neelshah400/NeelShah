@@ -1,22 +1,11 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react'
-import { Box, HStack, Heading, Image, VStack, Text, Tooltip, IconButton, useBreakpointValue, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, HStack, IconButton, Image, Tooltip, VStack } from '@chakra-ui/react'
+import React from 'react'
 import { AiFillFilePdf, AiFillGithub, AiFillLinkedin, AiFillMail, AiFillPhone } from 'react-icons/ai'
 import * as CONSTANTS from '../constants'
-import { Link } from './Link'
 import { Headlines } from './Headlines'
+import { Link } from './Link'
 
 const Hero = () => {
-
-  const headlines = {
-    base: [
-      'CS @ UMD',
-      'SWE Intern @ Bloomberg'
-    ],
-    md: [
-      'Computer Science Student at the University of Maryland',
-      'Software Engineering Intern at Bloomberg'
-    ]
-  }
 
   const buttons = [
     {

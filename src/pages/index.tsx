@@ -1,9 +1,9 @@
+import { Container } from '@chakra-ui/react'
 import React from 'react'
-import { Box, Container } from '@chakra-ui/react'
-import * as CONSTANTS from '../constants'
 import { Header } from '../components/Header'
-import { Section } from '../components/Section'
 import Hero from '../components/Hero'
+import { Section } from '../components/Section'
+import * as CONSTANTS from '../constants'
 
 const Index = () => {
   return (
