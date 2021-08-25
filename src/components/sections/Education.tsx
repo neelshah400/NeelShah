@@ -21,7 +21,7 @@ export const Education = () => {
       location: 'Monmouth Jct, NJ',
       dates: 'Sep 2017 \u2013 Jun 2021',
       role: 'High School Diploma',
-      image: '/snhs.png',
+      image: '/sbhs.png',
       bullets: [
         'Activities: Science Olympiad, LaunchX Entrepreneurship Program, Computer Science Club, Chemistry Olympics',
         'Honor Societies: National Honor Society; Computer Science, Math, Business, Science, and Latin honor societies',
