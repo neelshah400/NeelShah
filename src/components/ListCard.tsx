@@ -6,9 +6,9 @@ const ListCard = ({ name, icon, skills }) => {
   const color = useColorModeValue("gray.700", "gray.200")
   return (
     <Box w="sm" mx="auto" bg={useColorModeValue("white", "gray.800")} shadow="lg" rounded="lg" overflow="hidden">
-      <Flex alignItems="center" px={6} py={3} bg="gray.900">
-      <Iconify icon={icon} height={48} width={48} />
-        <Text mx={3} color="white" fontWeight="bold" fontSize="lg">{name}</Text>
+      <Flex alignItems="center" px={6} py={3} bg={useColorModeValue("gray.200", "gray.700")}>
+        <Iconify icon={icon} height={48} width={48} />
+        <Text mx={3} color={useColorModeValue("gray.800", "white")} fontWeight="bold" fontSize="lg">{name}</Text>
       </Flex>
       <Box pb={4} px={6}>
         {skills.map(skill => (

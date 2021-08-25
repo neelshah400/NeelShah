@@ -3,6 +3,7 @@ import NextLink from 'next/link';
 import React from 'react';
 import { AiFillCode, AiOutlineMenu } from 'react-icons/ai';
 import * as CONSTANTS from '../constants';
+import { DarkModeSwitch } from './DarkModeSwitch';
 
 export const Header = () => {
 
@@ -25,8 +26,10 @@ export const Header = () => {
                 <Button variant="ghost">{section.name}</Button>
               </NextLink>
             ))}
+            <DarkModeSwitch />
           </HStack>
           <Box display={{ base: "inline-flex", md: "none" }}>
+            <DarkModeSwitch />
             <IconButton
               display={{ base: "flex", md: "none" }}
               aria-label="Open menu"
