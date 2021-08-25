@@ -10,7 +10,7 @@ export const Education = () => {
       location: 'College Park, MD',
       dates: 'Aug 2021 \u2013 present',
       role: 'B.S. Computer Science',
-      image: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/University_of_Maryland_seal.svg/1200px-University_of_Maryland_seal.svg.png',
+      image: '/umd.png',
       bullets: [
         'Major in Computer Science; potential minor or double major in Mathematics or Economics',
         'Member of the College Park Scholars Environment, Technology, and Economy program'
@@ -21,7 +21,7 @@ export const Education = () => {
       location: 'Monmouth Jct, NJ',
       dates: 'Sep 2017 \u2013 Jun 2021',
       role: 'High School Diploma',
-      image: 'http://sbhsmodelun.weebly.com/uploads/4/0/3/7/40377653/1476156_orig.png',
+      image: '/snhs.png',
       bullets: [
         'Activities: Science Olympiad, LaunchX Entrepreneurship Program, Computer Science Club, Chemistry Olympics',
         'Honor Societies: National Honor Society; Computer Science, Math, Business, Science, and Latin honor societies',
