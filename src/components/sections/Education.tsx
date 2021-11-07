@@ -3,7 +3,7 @@ import React from 'react'
 import ExperienceCard from '../ExperienceCard'
 
 export const Education = () => {
-  
+
   const cards: { organization: string, location: string, dates: string, role: string, image: string, bullets: string[] }[] = [
     {
       organization: 'University of Maryland',
@@ -13,7 +13,7 @@ export const Education = () => {
       image: '/umd.png',
       bullets: [
         'Major in Computer Science; potential minor or double major in Mathematics or Economics',
-        'Member of the College Park Scholars Environment, Technology, and Economy program'
+        'Member of the College Park Scholars Environment, Technology, and Economy program, an invitation-only living-learning program'
       ]
     },
     {
