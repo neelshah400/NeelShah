@@ -1,5 +1,6 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Flex, HStack, Image, ListItem, Text, UnorderedList, useColorModeValue, VStack } from '@chakra-ui/react';
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Flex, HStack, ListItem, Text, UnorderedList, useColorModeValue, VStack } from '@chakra-ui/react';
 import React from 'react';
+import CustomImage from './CustomImage';
 
 const ExperienceCard = ({ organization, location, dates, role, image, bullets }: { organization: string, location: string, dates: string, role: string, image: string, bullets: string[] }) => {
   return (
@@ -9,7 +10,7 @@ const ExperienceCard = ({ organization, location, dates, role, image, bullets }:
           <AccordionButton>
             <Box flex="1" textAlign="left">
               <HStack spacing={4}>
-                <Image boxSize="50px" src={image} alt={`${organization} logo`} />
+                <CustomImage width="50" height="50" src={image} alt={`${organization} logo`} />
                 <VStack align="left" spacing={0}>
                   <Text fontWeight="semibold" letterSpacing="wide" fontSize="xs" textTransform="uppercase">{location} &bull; {dates}</Text>
                   <Text fontSize="2xl" fontWeight="bold">{organization}</Text>
@@ -32,4 +33,4 @@ const ExperienceCard = ({ organization, location, dates, role, image, bullets }:
   )
 }
 
-export default ExperienceCard;
+export default ExperienceCard

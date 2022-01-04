@@ -1,7 +1,8 @@
-import { Box, Heading, HStack, IconButton, Image, Tooltip, useColorModeValue, VStack } from '@chakra-ui/react'
+import { Box, Heading, HStack, IconButton, Tooltip, useColorModeValue, VStack } from '@chakra-ui/react'
 import { Icon as Iconify } from '@iconify/react'
 import React from 'react'
 import * as CONSTANTS from '../constants'
+import CustomImage from './CustomImage'
 import { Headlines } from './Headlines'
 import { Link } from './Link'
 
@@ -40,7 +41,7 @@ const Hero = () => {
   return (
     <VStack flexDir="column" h={`calc(100vh - ${CONSTANTS.HEADER_HEIGHT}px)`} minHeight="540px">
       <Box pt="10vh">
-        <Image borderRadius="full" boxSize={40} src="/avatar.jpg" alt="Neel Shah" />
+        <CustomImage width="150" height="150" borderRadius="full" src="/avatar.jpg" alt="Neel Shah" />
       </Box>
       <Heading as="h1" size="2xl" pt={5}>Neel Shah</Heading>
       <Headlines />
