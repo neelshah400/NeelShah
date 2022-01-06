@@ -24,6 +24,7 @@ export const Skills = () => {
         { name: 'CSS', icon: 'vscode-icons:file-type-css' },
         { name: 'React', icon: 'logos:react' },
         { name: 'Angular', icon: 'logos:angular-icon' },
+        { name: 'Express', icon: 'simple-icons:express' },
         { name: 'Flask', icon: 'file-icons:flask' },
         { name: 'Django', icon: 'vscode-icons:file-type-django' },
       ]
