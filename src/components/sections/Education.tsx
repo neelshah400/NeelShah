@@ -8,12 +8,13 @@ export const Education = () => {
     {
       organization: 'University of Maryland',
       location: 'College Park, MD',
-      dates: 'Aug 2021 \u2013 present',
+      dates: 'Aug 2021 \u2013 May 2024 (Expected)',
       role: 'B.S. Computer Science',
       image: '/umd.png',
       bullets: [
-        'Major in Computer Science; potential minor or double major in Mathematics or Economics',
-        'Member of the College Park Scholars Environment, Technology, and Economy program, an invitation-only living-learning program'
+        'Major in Computer Science; minor in Statistics',
+        'Member of the College Park Scholars Environment, Technology, and Economy program, a invitation-only program where students explore issues of global sustainability from an environmental, social, and economic perspective',
+        'Awards: Dean\'s List (Fall 2021), OMSE Academic Excellence Award (2022)'
       ]
     },
     {

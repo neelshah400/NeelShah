@@ -13,6 +13,7 @@ export const Skills = () => {
         { name: 'Python', icon: 'logos:python' },
         { name: 'JavaScript', icon: 'logos:javascript' },
         { name: 'TypeScript', icon: 'logos:typescript-icon' },
+        { name: 'C', icon: 'logos:c' },
         { name: 'C#', icon: 'logos:c-sharp' }
       ]
     },
