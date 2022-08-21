@@ -13,8 +13,8 @@ export const Education = () => {
       image: '/umd.png',
       bullets: [
         'Major in Computer Science; minor in Statistics',
-        'Member of the College Park Scholars Environment, Technology, and Economy program, a invitation-only program where students explore issues of global sustainability from an environmental, social, and economic perspective',
-        'Awards: Dean\'s List (Fall 2021), OMSE Academic Excellence Award (2022)'
+        'Member of the College Park Scholars: Environment, Technology, and Economy program, an invitation-only program where students explore issues of global sustainability from an environmental, social, and economic perspective',
+        'Awards: Dean’s List (Fall 2021, Spring 2022); Office of Multi-Ethnic Student Education Academic Excellence Award (2022)'
       ]
     },
     {

@@ -1,6 +1,7 @@
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Flex, Text, useColorModeValue } from '@chakra-ui/react'
 import { Icon as Iconify } from '@iconify/react'
 import React from 'react'
+import CustomImage from './CustomImage'
 
 const SkillsCard = ({ name, icon, skills }: { name: string, icon: string, skills: { name: string, icon: string }[] }) => {
   return (
@@ -19,7 +20,11 @@ const SkillsCard = ({ name, icon, skills }: { name: string, icon: string, skills
           <AccordionPanel pb={4}>
             {skills.map(skill => (
               <Flex key={skill.name} alignItems="center" py={1}>
-                <Iconify icon={skill.icon} height={24} width={24} />
+                {
+                  skill.icon.includes('/')
+                    ? <CustomImage src={skill.icon} alt={skill.icon} height={24} width={24} />
+                    : <Iconify icon={skill.icon} height={24} width={24} />
+                }
                 <Text px={2} fontSize="lg">{skill.name}</Text>
               </Flex>
             ))}

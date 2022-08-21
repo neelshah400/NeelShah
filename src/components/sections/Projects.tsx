@@ -2,6 +2,7 @@ import { Text, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from '../Link'
 
+// TODO: Add projects here (will need to create a ProjectCard component, similar to ExperienceCard)
 export const Projects = () => {
   return (
     <>

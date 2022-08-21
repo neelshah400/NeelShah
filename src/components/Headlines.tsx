@@ -6,11 +6,11 @@ export const Headlines = () => {
   const headlines: string[] = useBreakpointValue({
     base: [
       'CS @ UMD',
-      'SWE Intern @ Bloomberg'
+      'Technical Intern @ Capgemini Government Solutions'
     ],
     sm: [
       'Computer Science Student at the University of Maryland',
-      'Software Engineering Intern at Bloomberg'
+      'Technical Intern at Capgemini Government Solutions'
     ]
   })
 

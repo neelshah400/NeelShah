@@ -10,11 +10,12 @@ export const Skills = () => {
       icon: 'ant-design:code-outlined',
       skills: [
         { name: 'Java', icon: 'logos:java' },
-        { name: 'Python', icon: 'logos:python' },
-        { name: 'JavaScript', icon: 'logos:javascript' },
-        { name: 'TypeScript', icon: 'logos:typescript-icon' },
-        { name: 'C', icon: 'logos:c' },
-        { name: 'C#', icon: 'logos:c-sharp' }
+        { name: 'Python', icon: 'vscode-icons:file-type-python' },
+        { name: 'JavaScript', icon: 'vscode-icons:file-type-js-official' },
+        { name: 'TypeScript', icon: 'vscode-icons:file-type-typescript-official' },
+        { name: 'C', icon: 'vscode-icons:file-type-c3' },
+        { name: 'C#', icon: 'vscode-icons:file-type-csharp2' },
+        { name: 'SQL', icon: 'vscode-icons:file-type-sql' }
       ]
     },
     {
@@ -23,8 +24,8 @@ export const Skills = () => {
       skills: [
         { name: 'HTML', icon: 'vscode-icons:file-type-html' },
         { name: 'CSS', icon: 'vscode-icons:file-type-css' },
-        { name: 'React', icon: 'logos:react' },
-        { name: 'Angular', icon: 'logos:angular-icon' },
+        { name: 'React', icon: 'vscode-icons:file-type-reactjs' },
+        { name: 'Angular', icon: 'vscode-icons:file-type-angular' },
         { name: 'Express', icon: 'simple-icons:express' },
         { name: 'Flask', icon: 'file-icons:flask' },
         { name: 'Django', icon: 'vscode-icons:file-type-django' },
@@ -35,10 +36,13 @@ export const Skills = () => {
       icon: 'ri:computer-fill',
       skills: [
         { name: 'Linux', icon: 'logos:linux-tux' },
-        { name: 'Git', icon: 'logos:git-icon' },
-        { name: 'Docker', icon: 'logos:docker-icon' },
+        { name: 'Git', icon: 'vscode-icons:file-type-git' },
+        { name: 'Docker', icon: 'vscode-icons:file-type-docker2' },
+        { name: 'Node.js', icon: 'vscode-icons:file-type-node2' },
         { name: 'Android', icon: 'flat-color-icons:android-os' },
         { name: 'Unity', icon: 'cib:unity' },
+        { name: 'UiPath', icon: '/uipath-logo.png' },
+        { name: 'Grafana', icon: 'logos:grafana' },
         { name: 'Jira', icon: 'logos:jira' },
       ]
     },
