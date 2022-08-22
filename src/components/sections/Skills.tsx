@@ -41,7 +41,7 @@ export const Skills = () => {
         { name: 'Node.js', icon: 'vscode-icons:file-type-node2' },
         { name: 'Android', icon: 'flat-color-icons:android-os' },
         { name: 'Unity', icon: 'cib:unity' },
-        { name: 'UiPath', icon: '/uipath-logo.png' },
+        { name: 'UiPath', icon: '/uipath.png' },
         { name: 'Grafana', icon: 'logos:grafana' },
         { name: 'Jira', icon: 'logos:jira' },
       ]
