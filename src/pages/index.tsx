@@ -11,10 +11,7 @@ const Index = () => {
 
   const title = 'Neel Shah'
   const author = 'Neel Shah'
-  const description = `
-    Neel Shah's portfolio website provides information about him, including a basic overview,
-    contact information, skills, education, experience, and projects.
-  `
+  const description = `Neel Shah's portfolio website includes an overview, contact information/links, about me, skills, education, experience, and projects.`
 
   return (
     <>
