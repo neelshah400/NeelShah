@@ -6,6 +6,18 @@ export const Experience = () => {
 
   const cards: { organization: string, location: string, dates: string, role: string, image: string, bullets: string[] }[] = [
     {
+      organization: 'University of Maryland',
+      location: 'College Park, MD',
+      dates: 'Jan 2023 \u2013 Present',
+      role: 'Teaching Assistant',
+      image: '/umd.png',
+      bullets: [
+        'Worked as a teaching assistant for CMSC131: Object-Oriented Programming I, an introductory computer science course that focuses on object-oriented programming using Java',
+        'Held weekly office hours, where I answered students\' questions on class material and provided guidance on projects',
+        'Graded quizzes, exams, and projects for style and accuracy and offered constructive feedback'
+      ]
+    },
+    {
       organization: 'Capgemini Government Solutions',
       location: 'McLean, VA',
       dates: 'Jun 2022 \u2013 Aug 2022',
