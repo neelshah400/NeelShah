@@ -13,8 +13,7 @@ export const Education = () => {
       image: '/umd.png',
       bullets: [
         'GPA: 4.0/4.0',
-        'Awards: Dean\'s List (Fall 2021, Spring 2022, Fall 2022); Office of Multi-Ethnic Student Education Academic Excellence Award (2022)',
-        'Member of the College Park Scholars: Environment, Technology, and Economy program (an invitation-only program where students explore issues of global sustainability from an environmental, social, and economic perspective)'
+        'Honors: Dean\'s List; College Park Scholars: Environment, Technology, & Economy citation',
       ]
     },
     {

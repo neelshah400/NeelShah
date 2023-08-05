@@ -7,7 +7,7 @@ export const Projects = () => {
 
   const cards: { project: string, dates: string, buttons: { label: string, href: string, icon: string }[], image: string, bullets: string[] }[] = [
     {
-      project: 'Portfolio Website - neelshah.dev',
+      project: 'Portfolio Website',
       dates: 'Aug 2021 \u2013 Present',
       buttons: [
         {
@@ -23,29 +23,30 @@ export const Projects = () => {
       ],
       image: '/favicon.png',
       bullets: [
-        'Portfolio website which includes overview, contact information/links, about me, skills, education, experience, and projects',
-        'Built responsive, mobile-friendly site using React (TypeScript); hosted on my own domain using Vercel'
+        'Created and deployed a responsive, mobile-friendly portfolio website showcasing my skills, education, experience, and projects',
+        'Built the site using React (TypeScript), implementing a component-based approach for easy updates via edits to JSON data'
       ]
     },
     {
-      project: 'Factsvine',
-      dates: 'Nov 2019',
+      project: 'NBA Playoff Predictions',
+      dates: 'Jan 2023 \u2013 May 2023',
       buttons: [
         {
           label: 'GitHub',
-          href: 'https://github.com/neelshah400/factsvine',
+          href: 'https://github.com/neelshah400/NBA-Playoff-Predictions',
           icon: 'akar-icons:github-fill'
         },
         {
           label: 'Website',
-          href: 'https://factsvine-news.herokuapp.com/',
+          href: 'https://nba.neelshah.dev',
           icon: 'akar-icons:globe'
         }
       ],
-      image: '/github.png',
+      image: '/nba.jpg',
       bullets: [
-        'Site which summarizes news articles and evaluates them for fake news (built during 24-hour hackathon)',
-        'Developed Flask web app using a natural language processing library and fake news detection API (Python)'
+        'Analyzed the factors influencing teams’ playoff success using Python, going through each step of the data science pipeline',
+        'Accurately predicted the number of playoff games a given team would win by leveraging regular season data to train 8 different machine learning models, with the best (a decision tree) achieving a mean deviation of less than 2.5 games',
+        'Performed an exhaustive grid search with 5-fold cross-validation to find the optimal parameters for each model'
       ]
     }
   ]

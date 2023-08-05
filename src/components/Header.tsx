@@ -14,9 +14,9 @@ export const Header = () => {
     <Box bg={bg} zIndex="sticky" h={CONSTANTS.HEADER_HEIGHT} w="full" px={{ base: 2, sm: 4 }} py={4} shadow="sm" position="fixed" top={0}>
       <Flex alignItems="center" justifyContent="space-between" mx="auto">
         <HStack>
-          <Link href="#">
+          <NextLink href="#">
             <Icon as={AiFillCode} boxSize={6} />
-          </Link>
+          </NextLink>
           <Heading as="h1" size="md" fontWeight="medium" ml="2">Neel Shah</Heading>
         </HStack>
         <HStack display="flex" alignItems="center" spacing={1}>

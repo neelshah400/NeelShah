@@ -12,9 +12,22 @@ export const Experience = () => {
       role: 'Teaching Assistant',
       image: '/umd.png',
       bullets: [
-        'Worked as a teaching assistant for CMSC131: Object-Oriented Programming I, an introductory computer science course that focuses on object-oriented programming using Java',
-        'Held weekly office hours, where I answered students\' questions on class material and provided guidance on projects',
-        'Graded quizzes, exams, and projects for style and accuracy and offered constructive feedback'
+        'Teaching assistant for CMSC131: Object-Oriented Programming I, an introductory computer science course taught using Java',
+        'Conducted weekly office hours, providing guidance to students on class material and project-related questions',
+        'Graded quizzes, exams, and projects for style and accuracy, offering constructive feedback to enhance students’ understanding'
+      ]
+    },
+    {
+      organization: 'Morgan Stanley',
+      location: 'New York, NY',
+      dates: 'Jun 2023 \u2013 Aug 2023',
+      role: 'Technology Summer Analyst',
+      image: '/ms.png',
+      bullets: [
+        'Enabled individuals within Lending Products & Services and other teams to quickly draw meaningful insights from data by developing a versatile machine learning platform for model building, evaluation, and prediction',
+        'Developed user-friendly web application using React (TypeScript) for the frontend and Flask/Db2 (Python) for the backend',
+        'Supported complex pipelines with preprocessing and feature selection steps as well as hyperparameter tuning via grid search',
+        'Led the development of a tool for classifying and extracting information from financial documents using OpenAI’s GPT-4 model during Morgan Stanley’s Generative AI Hackathon'
       ]
     },
     {
@@ -24,9 +37,9 @@ export const Experience = () => {
       role: 'Technical Intern',
       image: '/capgemini.png',
       bullets: [
-        'Worked on a robotic process automation (RPA) project for the Software as a Service (SaaS) capability team',
-        'Automated the provisioning of users in Salesforce using data exported from an HR system, through the development of a UiPath attended bot with robust error/interruption handling capabilities, which reduced processing time by more than 80%, improved data accuracy, and freed up time for team members to work on higher priority tasks (duties included designing, developing, testing, writing documentation, deploying, and conducting demonstrations to stakeholders)',
-        'Worked with 2 other interns to explore the viability of virtual reality (VR) for use by Capgemini Government Solutions and its clients, through hands-on experience with the Oculus Quest 2 and extensive market research, culminating in a presentation made to top company executives'
+        'Improved the efficiency of the Software as a Service (SaaS) capability team by leveraging robotic process automation (RPA) to automate the provisioning of users in Salesforce using data exported weekly from an HR system',
+        'Reduced processing time by over 80% and enhanced data accuracy by developing a UiPath attended bot',
+        'Presented findings on viability of virtual reality to top executives, following hands-on testing and extensive market research'
       ]
     },
     {
@@ -36,10 +49,10 @@ export const Experience = () => {
       role: 'Software Engineering Intern',
       image: '/bloomberg.png',
       bullets: [
-        'Worked on the Fleet Automation Services team, which supports Bloomberg’s large-scale technology infrastructure by developing tools used to automate operations',
-        'Enabled Environment Support team to manage machine turnaround (maintenance operations) via a web application more efficiently by developing several features, including the ability to set different retry actions per host when rerunning failed jobs, using Angular (TypeScript) for the frontend and Django/PostgreSQL (Python) for the backend',
+        'Contributed to the Fleet Automation Services team by developing several features for a web application used to manage machine turnaround (maintenance operations) for a fleet of over 30,000 servers',
+        'Provided operators with the ability to set different retry actions per host when rerunning failed jobs, using Angular (TypeScript) for the frontend and Django/PostgreSQL (Python) for the backend',
         'Created reproducible development/build environments for the Angular frontend by containerizing it using Docker',
-        'Improved data visibility by publishing metrics for maintenance events, actions, and failures to a telemetry system via the Django backend and creating a filterable Grafana dashboard displaying timeseries graphs of these metrics'
+        'Enhanced data visibility by publishing metrics for maintenance events, actions, and failures to a telemetry system via the Django backend and creating a filterable Grafana dashboard displaying time series graphs of these metrics'
       ]
     },
     {
@@ -49,8 +62,8 @@ export const Experience = () => {
       role: 'Software Engineering Intern',
       image: '/bloomberg.png',
       bullets: [
-        'Worked on the Environment Support Site Reliability Engineering team, which automates machine turnaround (maintenance operations) for a fleet of over 30,000 servers',
-        'Provided valuable insight into turnaround data for Environment Support team by developing an interactive web application to visualize metrics such as runtime, failure rates, and failure reasons at the host, schedule, and cluster levels, using React (TypeScript) for the frontend and Django/PostgreSQL (Python) for the backend'
+        'Assisted the Environment Support Site Reliability Engineering team by providing visibility into data on a fleet of over 30,000 servers, which the team automates machine turnaround (maintenance operations) for',
+        'Developed an interactive web application to visualize metrics such as runtime, failure rates, and failure reasons at the host, schedule, and cluster levels, using React (TypeScript) for the frontend and Django/PostgreSQL (Python) for the backend'
       ]
     }
   ]

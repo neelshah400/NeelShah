@@ -9,10 +9,12 @@ export const Skills = () => {
       name: 'Programming Languages',
       icon: 'ant-design:code-outlined',
       skills: [
-        { name: 'Java', icon: 'logos:java' },
         { name: 'Python', icon: 'vscode-icons:file-type-python' },
         { name: 'JavaScript', icon: 'vscode-icons:file-type-js-official' },
         { name: 'TypeScript', icon: 'vscode-icons:file-type-typescript-official' },
+        { name: 'Java', icon: 'logos:java' },
+        { name: 'Haskell', icon: 'vscode-icons:file-type-haskell' },
+        { name: 'OCaml', icon: 'vscode-icons:file-type-ocaml' },
         { name: 'C', icon: 'vscode-icons:file-type-c3' },
         { name: 'C#', icon: 'vscode-icons:file-type-csharp2' },
         { name: 'SQL', icon: 'vscode-icons:file-type-sql' }
