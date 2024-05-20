@@ -41,7 +41,7 @@ const Hero = () => {
   return (
     <VStack flexDir="column" h={`calc(100vh - ${CONSTANTS.HEADER_HEIGHT}px)`} minHeight="540px">
       <Box pt="10vh">
-        <CustomImage width="150" height="150" borderRadius="full" src="/avatar.jpg" alt="Neel Shah" />
+        <CustomImage width="150" height="150" borderRadius="full" src="/avatar.png" alt="Neel Shah" />
       </Box>
       <Heading as="h1" size="2xl" pt={5}>Neel Shah</Heading>
       <Headlines />
